@@ -1,4 +1,4 @@
-import sys 
+import sys
 import os
 import yaml
 import flask
@@ -33,6 +33,7 @@ def fetch_website(urllib_version, url):
         r = http.request('GET', url)
     except:
         print('Exception')
+
 
 
 def load_yaml(filename):
